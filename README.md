@@ -412,7 +412,7 @@ public class Server {
 
 ---
 
-## 📚 Key Java Concepts Used
+##  Key Java Concepts Used
 
 | Concept | Where Used | What It Demonstrates |
 |---------|-----------|----------------------|
