@@ -28,7 +28,7 @@ A hands-on Java networking project that implements a TCP server in **three progr
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project explores **socket-level TCP communication** in Java and answers a core systems design question:
 
@@ -46,7 +46,7 @@ All servers bind to **port 8010** on localhost.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Multithreaded-Web-server-JAVA-main/
@@ -74,7 +74,7 @@ Multithreaded-Web-server-JAVA-main/
 
 ---
 
-## 🏗️ Architecture & Concurrency Models
+##  Architecture & Concurrency Models
 
 ### Model 1 — Single-Threaded Server
 
@@ -120,7 +120,7 @@ This is the closest model to what production servers actually do — bounded res
 
 ---
 
-## 🔄 How It Works — Communication Flow
+##  How It Works — Communication Flow
 
 All three models share the same underlying socket communication protocol:
 
@@ -140,7 +140,7 @@ The exchange is intentionally minimal — one greeting from the server — so th
 
 ---
 
-## 🔍 Code Walkthrough
+##  Code Walkthrough
 
 ### `SingleThreaded/Server.java`
 
@@ -431,7 +431,7 @@ public class Server {
 
 ---
 
-## ⚖️ Comparison of All Three Models
+##  Comparison of All Three Models
 
 | Dimension | SingleThreaded | MultiThreaded | ThreadPool |
 |-----------|---------------|---------------|------------|
@@ -448,7 +448,7 @@ public class Server {
 
 ---
 
-## ▶️ Running the Project
+##  Running the Project
 
 ### Prerequisites
 
@@ -508,7 +508,7 @@ java MultiThreaded.Client
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 | Requirement | Version / Notes |
 |-------------|-----------------|
@@ -520,7 +520,7 @@ java MultiThreaded.Client
 
 ---
 
-## ⚠️ Known Limitations & Improvements
+##  Known Limitations & Improvements
 
 ### Current Limitations
 
@@ -566,7 +566,7 @@ ExecutorService pool = new ThreadPoolExecutor(
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 After studying this project you will understand:
 
@@ -581,7 +581,7 @@ After studying this project you will understand:
 
 ---
 
-## 📝 License
+##  License
 
 MIT — Built for learning Java networking and concurrency fundamentals.
 
